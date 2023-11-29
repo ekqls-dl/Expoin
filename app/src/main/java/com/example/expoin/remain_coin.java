@@ -54,6 +54,7 @@ public class remain_coin extends AppCompatActivity {
             public void afterTextChanged(Editable editable) {
                 try{
                     ot500 = Integer.parseInt(out500.getText().toString());
+                    re500 = String.valueOf(ot500);
                 } catch (NumberFormatException e){
                 } catch (Exception e){
                 }
@@ -74,6 +75,7 @@ public class remain_coin extends AppCompatActivity {
             public void afterTextChanged(Editable editable) {
                 try{
                     ot100 = Integer.parseInt(out100.getText().toString());
+                    re100 = String.valueOf(ot100);
                 } catch (NumberFormatException e){
                 } catch (Exception e){
                 }
@@ -94,6 +96,7 @@ public class remain_coin extends AppCompatActivity {
             public void afterTextChanged(Editable editable) {
                 try{
                     ot50 = Integer.parseInt(out50.getText().toString());
+                    re50 = String.valueOf(ot50);
                 } catch (NumberFormatException e){
                 } catch (Exception e){
                 }
@@ -114,6 +117,7 @@ public class remain_coin extends AppCompatActivity {
             public void afterTextChanged(Editable editable) {
                 try{
                     ot10 = Integer.parseInt(out10.getText().toString());
+                    re10 = String.valueOf(ot10);
                 } catch (NumberFormatException e){
                 } catch (Exception e){
                 }
